@@ -32,5 +32,4 @@ The following will be performed when changes are detected in the repo code.
   
   [3] Jenkins/codepipeline will direct Terraform to build the aws cloud infrastructure.
   
-  [4] AWS ECS will pull the docker image from Docker Hub/ECR...
-      and run the app inside docker containers hosted on load balanced infrastucture which is publicly accessible in the aws cloud.
+  [4] AWS ECS will pull the docker image from Docker Hub/ECR and run the app inside docker containers hosted on load balanced infrastucture which is publicly accessible in the aws cloud.
