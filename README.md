@@ -1,6 +1,7 @@
-# ---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 # Project: APP01-mongodb
 Template version:  TF06.1.4
+Author:  Frank Effrim-Botchey
 Library: https://github.com/Frankie116/my-library.git
 
 
@@ -13,8 +14,9 @@ A previously created docker image is pulled from either docker hub or AWS ECR.
 
 The docker image is used by aws fargate to spin up redundant containers hosted in multiple AZs.
 
-Author:  Frank Effrim-Botchey
-# ---------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------
 
 Next feature release:
 
