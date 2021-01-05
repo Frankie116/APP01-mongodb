@@ -61,3 +61,5 @@ sg restored to allow only my-docker-port into lb and into ecs-sg
 
 removed my-docker-image variable from ouputs.tf & variables.tf and replaced with my-ecs-cd-template variable instead.
 
+Changelog-013
+Used TF06 template to create the first release of APP01-mongodb

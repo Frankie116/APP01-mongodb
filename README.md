@@ -1,17 +1,16 @@
 # ---------------------------------------------------------------------------------------------------
 # Project: APP01-mongodb
-## Template version:  TF06.1.4
-## Library: https://github.com/Frankie116/my-library.git
+Template version:  TF06.1.4
+Library: https://github.com/Frankie116/my-library.git
 
 
-## Purpose: 
-## This project creates a remote mongodb server that can be accessed on:
+Purpose: This project creates a remote mongodb server that can be accessed on:
 
-# mongodb.<my-domain>:27017
+## mongodb.<my-domain>:27017
 
-## Terraform is used to create a loadbalanced fargate infrastructure.
-## A previously created docker image is pulled from either docker hub or AWS ECR.
-## The docker image is used by aws fargate to spin up redundant containers hosted in multiple AZs.
+Terraform is used to create a loadbalanced fargate infrastructure.
+A previously created docker image is pulled from either docker hub or AWS ECR.
+The docker image is used by aws fargate to spin up redundant containers hosted in multiple AZs.
 
 Author:  Frank Effrim-Botchey
 ## ----------------------------------------------------------------------------
