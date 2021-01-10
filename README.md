@@ -8,7 +8,7 @@ Author:  Frank Effrim-Botchey
 
 
 Purpose: This project creates a remote mongodb server that can be accessed on:
-## mongodb.<my-domain>:27017
+## mongodb.<<my-domain>>:27017
 
 Terraform is used to create a loadbalanced fargate infrastructure.
 
